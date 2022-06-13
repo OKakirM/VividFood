@@ -49,3 +49,18 @@
 .navbar-menu .icon img:hover {
   background-color: var(--cor-primaria-1);
 }
+
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    background-color: #70519b;
+  }
+
+  .navbar h1 {
+    margin-top: 20px;
+  }
+
+  .navbar-menu {
+    gap: 20px;
+  }
+}
