@@ -1,0 +1,12 @@
+/* Utilitarios */
+@import "utilitarios/reset.css";
+@import "utilitarios/animations.css";
+@import "utilitarios/colors.css";
+
+/* Componentes */
+@import "componentes/navbar.css";
+
+/* Pages */
+@import "pages/login.css";
+@import "pages/menu.css";
+@import "pages/option.css";

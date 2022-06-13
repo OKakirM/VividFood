@@ -1,0 +1,33 @@
+.option-bg {
+  background-color: var(--cor-primaria-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: var(--cor-branco-1);
+  height: 100vh;
+}
+
+.option {
+  display: flex;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.option-bar a {
+  text-align: center;
+  font-size: 1.5rem;
+  display: block;
+  padding: 30px 60px;
+  background-color: var(--cor-primaria-1);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.option-bar a:hover {
+  background-color: var(--cor-primaria-2);
+}
