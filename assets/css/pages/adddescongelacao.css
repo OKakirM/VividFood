@@ -1,4 +1,4 @@
-.formulario-bg-produto h1 {
+.formulario-bg-descongelacao h1 {
   font-size: 3rem;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -7,7 +7,7 @@
   color: var(--cor-branco-1);
 }
 
-.formulario-bg-produto {
+.formulario-bg-descongelacao {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,9 +16,9 @@
   background-color: var(--cor-primaria-4);
 }
 
-.formulario-container-produto {
-  width: 700px;
-  max-width: 700px;
+.formulario-container-descongelacao {
+  width: 500px;
+  max-width: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,8 +30,18 @@
   border-radius: 10px;
 }
 
+@media (max-width: 1200px) {
+  .formulario-bg-descongelacao {
+    height: 110vh;
+  }
+}
+
 @media (max-width: 800px) {
-  .formulario-container-produto {
+  .formulario-bg-descongelacao {
+    height: 90vh;
+  }
+
+  .formulario-container-descongelacao {
     width: 400px;
     max-width: 400px;
     padding: 40px;
@@ -39,10 +49,10 @@
 }
 
 @media (max-width: 500px) {
-  .formulario-bg-produto {
-    height: 160vh;
+  .formulario-bg-descongelacao {
+    height: 140vh;
   }
-  .formulario-container-produto {
+  .formulario-container-descongelacao {
     width: 200px;
     max-width: 200px;
   }
