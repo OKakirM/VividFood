@@ -5,8 +5,10 @@
 
 /* Componentes */
 @import "componentes/navbar.css";
+@import "componentes/formulário.css";
 
 /* Pages */
 @import "pages/login.css";
 @import "pages/menu.css";
 @import "pages/option.css";
+@import "pages/addproduto.css";

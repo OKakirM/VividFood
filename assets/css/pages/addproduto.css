@@ -1,0 +1,8 @@
+.formulario-bg h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  color: var(--cor-branco-1);
+}

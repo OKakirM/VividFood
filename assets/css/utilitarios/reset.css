@@ -29,5 +29,7 @@ label,
 input,
 button {
   display: block;
+  outline: none;
+  border: none;
   font-family: inherit;
 }

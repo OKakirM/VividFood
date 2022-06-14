@@ -1,0 +1,72 @@
+.formulario-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--cor-primaria-4);
+}
+
+.formulario-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+  width: 700px;
+  max-width: 700px;
+  background-color: var(--cor-primaria-1);
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.formulario-items {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  padding: 16px;
+  border: 2px solid #e1e1e1;
+  border-radius: 5px;
+  justify-self: stretch;
+  align-self: stretch;
+  width: auto;
+}
+
+.btn-submit {
+  border-radius: 5px;
+  padding: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 2px solid rgb(127, 255, 185);
+  background-color: rgb(127, 255, 191);
+  font-size: 1.125rem;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn-left {
+  border-radius: 5px;
+  padding: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 2px solid rgb(255, 127, 127);
+  background-color: rgb(255, 153, 127);
+  font-size: 1.125rem;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+}
+
+.label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
